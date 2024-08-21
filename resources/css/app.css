@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, serif;
+    padding-top: 100px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-grab:hover {
+    cursor: grab;
+}
+
+#to_do, #doing, #done {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.explanation {
+    height: 50px;
+    overflow: hidden;
+}
+
+.high {
+    background-color: #ff6a6e;
+}
+
+.middle {
+    background-color: #00aae2;
+}
+
+.low {
+    background-color: greenyellow;
+}
